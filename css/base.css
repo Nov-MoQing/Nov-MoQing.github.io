@@ -1,0 +1,57 @@
+/* 取消页面中所有标签的内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+    /* 开启CSS3盒子模型 */
+    box-sizing: border-box;
+}
+
+/* 取消em的倾斜效果 */
+em {
+    font-style: normal;
+}
+
+/* 取消strong的加粗效果 */
+strong {
+    font-weight: 400;
+}
+
+/* 取消页面中所有a的下划线 */
+a {
+    text-decoration: none;
+}
+
+/* 取消h1~h6的加粗 */
+h1,
+h2,
+h3,
+h5,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+/* 清除浮动 */
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+/* 去除ul li前面的小圆点 */
+ul {
+    list-style: none;
+}
+
+/* 取消input获取焦点黑边 */
+input {
+    outline: none;
+}
+
+/* 取消按钮的边框 */
+button {
+    border: none;
+}
